@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+  }
+  
+.top.head{
+    background-color: white;
+    text-align: center;
+    padding:20px;
+}
+
+.index{
+
+    overflow: hidden;
+    background: rgba(34, 30, 30, 0.801);
+
+}
+.index a{
+    text-decoration: none;
+    float:left;
+    padding:12px;
+    display: block;
+    color:white;
+    text-align: center;
+}
+.index #rlink{
+    float:right;
+}
+
+.index a:hover{
+    background-color: #cac6c6d8;
+    color:black;
+}
+
+.row:after{
+    clear:both;
+    display:table;
+    content:"";
+}
+
+
+.column{
+    background-color: #f1f1f1;
+    float: left;
+
+}
+.column.left{
+    width:75%;
+}
+
+.column.right{
+    width:25%;
+    padding-left:20px;
+}
+
+.card{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.card.r{
+    padding:12px;
+}
+
+.fakeimg{
+    background-color:#aaa;
+    width: 100%;
+    height:200px;
+    padding:15px;
+   
+}
+
+
+.footer {
+    width:100%;
+    height:100px;
+    margin-top:20px;
+    background: #ddd;
+    text-align:center;
+    padding:20px
+    
+  }
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .column.right, .column.left {   
+      width: 100%;
+      padding: 0;
+    }
+}
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .index a {
+      float: none;
+      width: 100%;
+    }
+}
