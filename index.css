@@ -1,3 +1,7 @@
+.{
+    box-sizing: border-box;
+}
+
 #intro .jumbotron-fluid{
     height: 100vh;
     /* width: 100%; */ 
@@ -7,6 +11,27 @@
     opacity: 47%;
     
     background-attachment: fixed;
+}
+
+h1,h2,h3,h4,h5,h6{
+    line-height: 1.5;
+}
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.container{
+    text-align: center;
+
+}
+
+h2,h3,h4{
+    color: lightsalmon;
+}
+
+h2{
+    margin-top: 0;
 }
 
 #intro .container{
@@ -21,4 +46,25 @@
 
 #intro .container p{
     font-size: 30px;
+}
+
+#profile .container .lead{
+    margin-bottom: 4px;
+}
+
+.container .col-md-4 p,h3{
+    font-size: 20px;
+    text-align: left;
+}
+
+.container .col-md-4 p{
+    font-size: 12px;
+}
+
+#experience .jumbotron-fluid{
+    background-color: rgb(183,133,143);
+}
+
+#experience .jumbotron-fluid hr{
+    border-top: 1px solid white;
 }
