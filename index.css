@@ -1,6 +1,9 @@
 .{
     box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
 }
+
+
 
 .jumbotron-fluid{
     padding:40px 0;
@@ -31,7 +34,7 @@ hr {
 }
 
 h2,h3,h4{
-    color: lightsalmon;
+    color: rgb(55,141,157);
 }
 
 h2{
@@ -48,8 +51,10 @@ h2{
     font-size: 65px;
 }
 
+
 #intro .container p{
     font-size: 30px;
+    text-align: center;
 }
 
 #profile .container .lead{
@@ -66,7 +71,7 @@ h2{
 }
 
 #experience .jumbotron-fluid{
-    background-color: rgb(183,133,143);
+    background-color: rgb(182,231,240);
 }
 
 #experience .jumbotron-fluid hr{
@@ -77,11 +82,18 @@ h2{
     clear:both;
     display: table;
 }
-li{
+ul,li,p{
     text-align: left;
     font-size: small;
+    letter-spacing: 1px;
+}
+p{
+    text-align: center;
 }
 
 #project .col-md-8{
+    text-align: left;
+}
+.lead .part{
     text-align: left;
 }
