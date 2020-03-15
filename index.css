@@ -1,143 +1,24 @@
-body,html{
-    box-sizing: border-box;
-    height:100%;
-    margin:0;
-    padding:0;
-  }
-  
-  .parallax {
-    /* The image used */
-    background-image: url('./image/background2.jpg');
-    min-height: 100%;
-    /* margin-bottom: 0px;
-    padding:0px; */
-    /* Full height */
-
+#intro .jumbotron-fluid{
+    height: 100vh;
+    /* width: 100%; */ 
+    /* background-color:gray; */
+    background-image: url(./image/background2.jpg);
     background-size: cover;
-
+    opacity: 47%;
+    
     background-attachment: fixed;
-    opacity: 0.53;
+}
+
+#intro .container{
     position: relative;
-  }
-
-.container{
-    position: absolute;
-    left: 0;
-    top:40%;
-    height: 40px;
-    width: 100%;
-    text-align: center;
-}
-.container > h1{
-    font-size: 60px;
-    margin:10px  0;
-}
-
-.max-container{
-    top:10%;
-    margin-left:auto;
-    margin-right:auto;
-    padding:40px 180px;
-    width:60%;
-    height:90%;
-}
-
-.context{
-    line-height: 0.25;
-}
-
-.context > h2{
-    text-align:center; 
-    font-size: 65px; 
-    letter-spacing:1px;
-    font-weight: 10;
-    color:rgba(17, 17, 17, 0.513);
-    margin-bottom:5%;
-}
-.context > p{
+    top: 39%;
     text-align: center;
     
-    margin-bottom: 5%;
+}
+#intro .container h1{
+    font-size: 65px;
 }
 
-.row .side{
-    /* position: relative; */
-
-    width: 35%;
-    /* padding: 10px; */
-    height: 100%;
-
+#intro .container p{
+    font-size: 30px;
 }
-.row .mid{
-    width: 30%;
-    /* padding:10px; */
-    height: 100%;
-}
-
-.row{
-    float:left;
-    display: inline-block;
-    height: 100%;
-}
-
-.row:after ,.row:before {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-#exp{
-    background-color: rgb(183,133,143);
-    margin-left:auto;
-    margin-right:auto;
-    padding:40px 180px;
-    width: auto;
-    height:135%;
-    top:0%;
-}
-
-.education, .project{
-    width: 100%;
-}
-
-.left{
-    width: 35%;
-}
-
-.right{
-    width:65%;
-}
-
-.p , .ul, .li, .pre{
-    line-height: 1.64;
-
-}
-
-.skill  ul > li .ability-title{
-    display: inline-block;
-    line-height: 2;
-   
-}
-
-.ability-stars{
-    float: right;
-    padding-right: 0%;
-}
-.checked {
-    color: orange;
-  }
-
-  .language-stars{
-      float: right;
-      padding-right: 37%;
-  }
-
-#Contact{
-    width: auto;
-    height: 50%;
-    background-color: rgb(77, 75, 75);
-    
-}
-/* #Contact > p , h2{
-    color: rgb(255, 228, 228);
-} */
