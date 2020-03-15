@@ -3,7 +3,9 @@
     font-family: 'Noto Sans TC', sans-serif;
 }
 
-
+h2,h3,h4{
+    color: rgb(55,141,157);
+}
 
 .jumbotron-fluid{
     padding:40px 0;
@@ -22,6 +24,7 @@
 
 h1,h2,h3,h4,h5,h6{
     line-height: 1.5;
+    
 }
 hr {
     margin-top: 2rem;
@@ -30,12 +33,11 @@ hr {
 
 .container{
     text-align: center;
+    padding:40px 180px;
 
 }
 
-h2,h3,h4{
-    color: rgb(55,141,157);
-}
+
 
 h2{
     margin-top: 0;
@@ -96,4 +98,34 @@ p{
 }
 .lead .part{
     text-align: left;
+}
+
+#skill ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.fa-star{
+    color: rgb(55,141,157);
+}
+.checked{
+    color: gray;
+}
+
+.ability-title{
+    
+    display: inline-block;
+}
+.ability-score{
+    float: right;
+}
+
+#skill ul > li:hover{
+    background: #F2F2F2;
+}
+#skill ul > li:hover .ability-score{
+    transform: scale(1.08);
+}
+.ability-score{
+    transition: transform 0.5s ease;
 }
