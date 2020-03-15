@@ -10,17 +10,20 @@ h2,h3,h4{
 .jumbotron-fluid{
     padding:40px 0;
 }
-
+#intro{
+    background-color: rgb(105, 105, 180);
+    opacity: 80%;
+}
 #intro .jumbotron-fluid{
     height: 100vh;
     /* width: 100%; */ 
     /* background-color:gray; */
-    background-image: url(./image/background2.jpg);
+    background-image: url(./image/background3.jpg);
     background-size: cover;
     opacity: 47%;
-    
     background-attachment: fixed;
 }
+
 
 h1,h2,h3,h4,h5,h6{
     line-height: 1.5;
@@ -100,7 +103,7 @@ p{
     text-align: left;
 }
 
-#skill ul{
+#ability ul{
     list-style-type: none;
     padding: 0;
 }
@@ -113,19 +116,24 @@ p{
 }
 
 .ability-title{
-    
     display: inline-block;
 }
 .ability-score{
     float: right;
 }
 
-#skill ul > li:hover{
+#ability ul > li:hover{
     background: #F2F2F2;
 }
-#skill ul > li:hover .ability-score{
+#ability ul > li:hover .ability-score{
     transform: scale(1.08);
 }
 .ability-score{
     transition: transform 0.5s ease;
+}
+
+
+
+#mail:hover {
+    color: white;
 }
