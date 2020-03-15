@@ -11,16 +11,16 @@ h2,h3,h4{
     padding:40px 0;
 }
 #intro{
-    background-color: rgb(105, 105, 180);
-    opacity: 80%;
+    background-color: lightblue; 
+    opacity: 95%;
 }
 #intro .jumbotron-fluid{
     height: 100vh;
     /* width: 100%; */ 
     /* background-color:gray; */
-    background-image: url(./image/background3.jpg);
+    background-image: url(./image/background4.jpg);
     background-size: cover;
-    opacity: 47%;
+    opacity: 80%;
     background-attachment: fixed;
 }
 
