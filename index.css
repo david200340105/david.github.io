@@ -1,10 +1,19 @@
 .{
     box-sizing: border-box;
-    font-family: 'Noto Sans TC', sans-serif;
 }
-
+html{
+    font-size:16px;
+}
+body,button, input,select, textarea,h1 ,h2, h3, h4, h5, h6 { 
+    font-family:MicrosoftYaHei,'宋體',Tahoma,Helvetica,Arial,"\5b8b\4f53", sans-serif;
+}
 h2,h3,h4{
     color: rgb(55,141,157);
+}
+
+.h2,h2{
+    font-size:3rem;
+
 }
 
 .jumbotron-fluid{
@@ -42,9 +51,7 @@ hr {
 
 
 
-h2{
-    margin-top: 0;
-}
+
 
 #intro .container{
     position: relative;
